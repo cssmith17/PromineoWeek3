@@ -1,0 +1,12 @@
+/* Write a function that takes two parameters, word and n, as arguments and returns the word concatenated to itself n number of times. (I.E. if
+I pass in 'Hello' and 3, I would expect the function to return 'HelloHelloHello'). */
+
+// function definition - specifying behavior
+function repeatWord(word, n){
+    let finalWord = '';
+    for(let i = 0; i < n; i++){
+        finalWord = finalWord + word;
+    }
+}
+
+repeatWord('Hello', 3);
